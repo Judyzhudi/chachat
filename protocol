@@ -6,6 +6,7 @@ typedef struct header1{
     uint16_t msglen	//truncate messages to fit 16bit 65k chars.
     char* message  	//malloc'd messagebody. below some ideas.
     int somecounter or such
+    // do we need the chanel ID here??
 }msgheader;
 
 messagebody:
